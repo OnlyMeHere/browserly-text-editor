@@ -18,7 +18,16 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'Just Another Text Editor'
+      }),
+    ],
+    plugins: [
+      new InjectManifest({
+        swSrc: './src/sw.js',
+        swDest: 'service-worker.js',
+      }),
     ],
 
 
