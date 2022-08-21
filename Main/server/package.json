@@ -1,14 +1,14 @@
 {
-    "name": "JATE",
+    "name": "jate",
     "version": "1.0.0",
-    "description": "",
+    "description": "A browser based text editor that works online and off.",
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "OnlyMeHere",
+    "license": "MIT",
     "dependencies": {
         "express": "^4.17.1"
     },
