@@ -7,7 +7,7 @@
         "server": "nodemon server.js --ignore client"
     },
     "keywords": [],
-    "author": "OnlyMeHere",
+    "author": "U2",
     "license": "MIT",
     "dependencies": {
         "express": "^4.17.1"

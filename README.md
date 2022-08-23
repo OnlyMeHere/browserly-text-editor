@@ -21,6 +21,7 @@ This Progressive Web Application makes use of the latest node.js package modules
 * CSS
 * Node.js
 * Node Package Modules:
+    * IndexedDB
     * Babel
     * Webpack
     * CSS Loader
